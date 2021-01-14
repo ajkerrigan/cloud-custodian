@@ -3,6 +3,7 @@
 """
 Authentication utilities
 """
+import functools
 import os
 
 from botocore.credentials import RefreshableCredentials
@@ -48,6 +49,15 @@ class SessionFactory:
             session = Session(
                 region_name=region or self.region, profile_name=self.profile)
 
+        @functools.wraps(session.client)
+        def client_wrapper(f):
+            def wrapper(service, *args, **kwargs):
+                session_config = f.__self__._session.get_scoped_config()
+                kwargs['endpoint_url'] = session_config.get(service, {}).get('endpoint_url')
+                return f(service, *args, **kwargs)
+            return wrapper
+
+        session.client = client_wrapper(session.client)
         return self.update(session)
 
     def update(self, session):
