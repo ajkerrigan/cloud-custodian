@@ -1,6 +1,7 @@
 # Copyright The Cloud Custodian Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+from functools import lru_cache
 import logging
 
 from c7n.filters import Filter
@@ -13,6 +14,8 @@ from c7n_azure.resources.arm import ArmResourceManager
 from c7n_azure.session import Session
 from c7n_azure.utils import GraphHelper
 from netaddr import IPSet
+
+from azure.mgmt.security import SecurityCenter
 
 log = logging.getLogger('custodian.azure.keyvault')
 
@@ -97,6 +100,22 @@ class KeyVault(ArmResourceManager):
         client = 'KeyVaultManagementClient'
         enum_spec = ('vaults', 'list', None)
         resource_type = 'Microsoft.KeyVault/vaults'
+
+    @lru_cache
+    def get_pricings(self, session, location):
+        sec_client = SecurityCenter(session.credentials, session.subscription_id, location)
+        return {
+            p['name']: p['pricing_tier']
+            for p in sec_client.pricings.list().as_dict()['value']
+        }
+
+    def augment(self,resources):
+        session = Session()
+        session._initialize_session()
+        for r in resources:
+            r['c7n:defender_pricing_tier'] = self.get_pricings(
+                session, r.get('location')).get('KeyVaults')
+        return super(KeyVault, self).augment(resources)
 
 
 @KeyVault.filter_registry.register('firewall-rules')
