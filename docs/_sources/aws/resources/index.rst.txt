@@ -134,6 +134,8 @@ be applies for all resources.
 
    group-kms.rst
 
+   group-lakeformation.rst
+
    group-lambda.rst
 
    group-lightsail.rst
