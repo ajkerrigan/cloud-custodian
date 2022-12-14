@@ -6,6 +6,7 @@ import json
 import time
 import datetime
 import jmespath
+from contextlib import suppress
 from botocore.exceptions import ClientError
 from fnmatch import fnmatch
 from dateutil.parser import parse as parse_date
@@ -2060,19 +2061,15 @@ class ToggleConfigManagedRule(BaseAction):
                     RemediationConfigurations=[remediation_params]
                 )
         else:
-            try:
+            with suppress(client.exceptions.NoSuchRemediationConfigurationException):
                 client.delete_remediation_configuration(
                     ConfigRuleName=rule.name
                 )
-            except client.exceptions.NoSuchRemediationConfigurationException:
-                pass
 
-            try:
+            with suppress(client.exceptions.NoSuchConfigRuleException):
                 client.delete_config_rule(
                     ConfigRuleName=rule.name
                 )
-            except client.exceptions.NoSuchConfigRuleException:
-                pass
 
     def get_rule_params(self, rule):
         params = dict(
