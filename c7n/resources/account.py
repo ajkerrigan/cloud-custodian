@@ -2038,15 +2038,20 @@ class ToggleConfigManagedRule(BaseAction):
         required=['rule_name'],
     )
 
+    def validate(self):
+        if (
+            self.data.get('enabled', True) and
+            not self.data.get('managed_rule_id')
+        ):
+            raise PolicyValidationError("managed_rule_id required to enable a managed rule")
+        return self
+
     def process(self, accounts):
         client = local_session(self.manager.session_factory).client('config')
         rule = self.ConfigManagedRule(self.data)
         params = self.get_rule_params(rule)
 
         if self.data.get('enabled', True):
-            if not rule.managed_rule_id:
-                raise PolicyValidationError("missing managed config rule id")
-
             client.put_config_rule(**params)
 
             if rule.remediation:
