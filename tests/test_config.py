@@ -175,13 +175,6 @@ class ConfigRuleTest(BaseTest):
             'custodian-config-managed-s3-bucket-public-write-remediate-event'
         )
 
-        # Test empty result set due to a non-matching remediation config
-        policy['filters'][0]['remediation']['TargetId'] = 'DoesNotExist'
-        p = self.load_policy(policy, session_factory=session_factory)
-        p.expand_variables(p.get_variables())
-        resources = p.run()
-        self.assertEqual(len(resources), 0)
-
     def test_remediation_no_results(self):
         session_factory = self.replay_flight_data("test_config_rule_remediation")
         policy = {
