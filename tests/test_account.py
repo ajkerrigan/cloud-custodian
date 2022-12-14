@@ -1295,6 +1295,32 @@ class AccountDataEvents(BaseTest):
         self.assertEqual(
             resources[0]["c7n:lake-cross-account-s3"], ["testarena.com"])
 
+    def test_toggle_config_managed_rule_validation(self):
+        policy = {
+            "name": "enable-config-managed-rule-valid",
+            "resource": "account",
+            "actions": [
+                {
+                    "type": "toggle-config-managed-rule",
+                    "rule_name": "enable-config-managed-rule",
+                    "rule_prefix": "test-",
+                    "managed_rule_id": "S3_BUCKET_PUBLIC_WRITE_PROHIBITED",
+                    "resource_types": [
+                        "AWS::S3::Bucket"
+                    ],
+                }
+            ]
+        }
+        p = self.load_policy(policy)
+        p.validate()
+
+        # Make the policy invalid
+        del policy["actions"][0]["managed_rule_id"]
+        with self.assertRaises(
+            PolicyValidationError, msg="managed_rule_id required to enable"
+        ):
+            p.validate()
+
     def test_toggle_config_managed_rule(self):
         session_factory = self.replay_flight_data("test_toggle_config_managed_rule")
         p = self.load_policy(
