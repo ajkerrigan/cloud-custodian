@@ -2258,7 +2258,7 @@ class NATGateway(query.QueryResourceManager):
 
     class resource_type(query.TypeInfo):
         service = 'ec2'
-        arn_type = 'nat-gateway'
+        arn_type = 'natgateway'
         enum_spec = ('describe_nat_gateways', 'NatGateways', None)
         name = id = 'NatGatewayId'
         filter_name = 'NatGatewayIds'
