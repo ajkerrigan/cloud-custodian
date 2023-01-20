@@ -243,6 +243,7 @@ class RelatedTaskDefinitionFilter(ValueFilter):
     permissions = ('ecs:DescribeTaskDefinition',
                    'ecs:ListTaskDefinitions')
     related_key = 'taskDefinition'
+    annotation_key = 'c7n:task-definition'
 
     def process(self, resources, event=None):
         task_def_ids = list({s[self.related_key] for s in resources})
@@ -255,17 +256,20 @@ class RelatedTaskDefinitionFilter(ValueFilter):
         # efficiency wrt api usage.
 
         # check to see if task def cache is already populated
-        key = task_def_manager.get_cache_key(None)
-        if self.manager._cache.get(key):
-            task_defs = task_def_manager.get_resources(task_def_ids)
-        # else just augment the ids
-        else:
-            task_defs = task_def_manager.augment(task_def_ids)
-        self.task_defs = {t['taskDefinitionArn']: t for t in task_defs}
+        with self.manager._cache as cache:
+            key = task_def_manager.get_cache_key(None)
+            if cache.get(key):
+                task_defs = task_def_manager.get_resources(task_def_ids)
+            # else just augment the ids
+            else:
+                task_defs = task_def_manager.augment(task_def_ids)
+        task_defs = {t['taskDefinitionArn']: t for t in task_defs}
+        for r in resources:
+            r[self.annotation_key] = task_defs[r[self.related_key]]
         return super(RelatedTaskDefinitionFilter, self).process(resources)
 
     def __call__(self, i):
-        task = self.task_defs[i[self.related_key]]
+        task = i[self.annotation_key]
         return self.match(task)
 
 
