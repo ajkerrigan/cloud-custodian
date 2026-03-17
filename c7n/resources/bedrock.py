@@ -7,6 +7,7 @@ from c7n.tags import RemoveTag, Tag, TagActionFilter, TagDelayedAction, universa
 from c7n.utils import local_session, type_schema
 from c7n.actions import BaseAction
 from c7n.filters.kms import KmsRelatedFilter
+from c7n.resources.aws import shape_schema, shape_validate
 
 
 @resources.register('bedrock-custom-model')
@@ -680,78 +681,37 @@ class UpdateGuardrail(BaseAction):
                       inputEnabled: true
                       outputEnabled: false
     """
-
+    shape = 'UpdateGuardrailRequest'
     schema = type_schema(
         'update',
-        name={'type': 'string'},
-        description={'type': 'string'},
-        topicPolicyConfig={'type': 'object'},
-        contentPolicyConfig={'type': 'object'},
-        wordPolicyConfig={'type': 'object'},
-        sensitiveInformationPolicyConfig={'type': 'object'},
-        contextualGroundingPolicyConfig={'type': 'object'},
-        automatedReasoningPolicyConfig={'type': 'object'},
-        crossRegionConfig={'type': 'object'},
-        blockedInputMessaging={'type': 'string'},
-        blockedOutputsMessaging={'type': 'string'},
-        kmsKeyId={'type': 'string'},
+        **shape_schema('bedrock', 'UpdateGuardrailRequest'),
     )
     permissions = ('bedrock:UpdateGuardrail',)
+    # Keys required by the API, but can default to existing resource values
+    required_keys = {
+        'name',
+        'guardrailIdentifier',
+        'blockedInputMessaging',
+        'blockedOutputsMessaging',
+    }
+
+    def validate(self):
+        attrs = {k: 'validate' for k in self.required_keys}
+        attrs.update({k: v for k, v in self.data.items() if k != 'type'})
+        return shape_validate(attrs, self.shape, self.manager.resource_type.service)
 
     def process(self, resources):
         client = local_session(self.manager.session_factory).client('bedrock')
 
         # Build update payload from action data (exclude 'type')
-        action_data = dict(self.data or {})
-        patch = {}
-        for k, v in list(action_data.items()):
-            if k != 'type':
-                patch[k] = v
+        patch = {k: v for k, v in self.data.items() if k != 'type'}
 
         for r in resources:
-            guardrail_id = r.get('arn')
-
-            params = {'guardrailIdentifier': guardrail_id}
+            params = {'guardrailIdentifier': r.get('arn'), **patch}
 
             # API requires certain fields; if they are not provided in the
-            # patch, fetch the current guardrail and reuse its values to
-            # avoid ParamValidationError (e.g. name, messaging fields).
-            required_fallbacks = ('name', 'blockedInputMessaging', 'blockedOutputsMessaging')
-            missing = [k for k in required_fallbacks if k not in patch]
-            if missing:
-                try:
-                    current = (
-                        client.get_guardrail(
-                            guardrailIdentifier=guardrail_id
-                        )
-                        .get('guardrail', {})
-                    )
-                except client.exceptions.ResourceNotFoundException:
-                    continue
-                # populate missing keys from current guardrail
-                for k in missing:
-                    # Prefer current server value, then resource value.
-                    val = None
-                    if current.get(k):
-                        val = current.get(k)
-                    elif r.get(k):
-                        val = r.get(k)
-                    if val:
-                        patch[k] = val
-                    else:
-                        # We cannot supply an empty value because botocore
-                        # will reject it. Surface a clear error to the
-                        # user instead of sending an invalid payload.
-                        raise ValueError(
-                            (
-                                "Unable to determine required field '%s' for guardrail %s; "
-                                "please include it in the action payload or ensure the resource "
-                                "has it."
-                            )
-                            % (k, guardrail_id)
-                        )
-
-            params.update(patch)
+            # patch, reuse existing values from the resource
+            params.update({k: r.get(k) for k in self.required_keys if k not in params})
 
             try:
                 client.update_guardrail(**params)

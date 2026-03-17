@@ -3,22 +3,29 @@
     "data": {
         "ResponseMetadata": {},
         "name": "c7n-test-guardrail-8ff977f0",
-        "description": "Test guardrail for C7N",
         "guardrailId": "bskwryvo9mu5",
         "guardrailArn": "arn:aws:bedrock:us-east-1:644160558196:guardrail/bskwryvo9mu5",
         "version": "DRAFT",
         "status": "READY",
-        "contentPolicy": {
-            "filters": [
+        "wordPolicy": {
+            "words": [
                 {
-                    "type": "HATE",
-                    "inputStrength": "MEDIUM",
-                    "outputStrength": "MEDIUM"
+                    "text": "HATE",
+                    "inputAction": "BLOCK",
+                    "outputAction": "NONE",
+                    "inputEnabled": true,
+                    "outputEnabled": false
                 }
             ],
-            "tier": {
-                "tierName": "CLASSIC"
-            }
+            "managedWordLists": [
+                {
+                    "type": "PROFANITY",
+                    "inputAction": "BLOCK",
+                    "outputAction": "NONE",
+                    "inputEnabled": true,
+                    "outputEnabled": false
+                }
+            ]
         },
         "createdAt": {
             "__class__": "datetime",
@@ -36,9 +43,9 @@
             "month": 3,
             "day": 2,
             "hour": 9,
-            "minute": 29,
-            "second": 53,
-            "microsecond": 275183
+            "minute": 30,
+            "second": 0,
+            "microsecond": 5636
         },
         "statusReasons": [],
         "failureRecommendations": [],
