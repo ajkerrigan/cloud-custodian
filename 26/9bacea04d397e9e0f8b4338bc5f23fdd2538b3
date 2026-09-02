@@ -1,0 +1,19 @@
+c7n/resources/asg.py
+  s_ba48e450c6b9e4::t_b0d82340cc3c00 1149-1170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "269bacea04d397e9e0f8b4338bc5f23fdd2538b3",
+  "prompts": {},
+  "sessions": {
+    "s_ba48e450c6b9e4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "85e9f38d-9743-498b-a7d0-f280f6bff994",
+        "model": "claude-opus-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
