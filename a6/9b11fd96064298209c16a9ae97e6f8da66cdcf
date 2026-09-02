@@ -1,0 +1,31 @@
+tools/c7n_gcp/c7n_gcp/actions/labels.py
+  s_ba48e450c6b9e4::t_fdc2de26875c19 162-171
+tools/c7n_azure/c7n_azure/actions/tagging.py
+  s_ba48e450c6b9e4::t_7ef920187e7732 112-115,118,121-125
+tests/test_asg.py
+  s_ba48e450c6b9e4::t_da135909893ee7 1323-1326,1339-1357
+  s_ba48e450c6b9e4::t_8aa1c34474e324 16,1327-1338
+tools/c7n_azure/tests_azure/test_actions_tag.py
+  s_ba48e450c6b9e4::t_116514796fcfa1 335-371
+tools/c7n_gcp/tests/test_gcp_labels.py
+  s_ba48e450c6b9e4::t_bb6629b41d25e3 3-4,108-126
+c7n/resources/asg.py
+  s_ba48e450c6b9e4::t_0c989ba8b12919 1168,1170-1171,1173-1177,1179-1181
+  s_ba48e450c6b9e4::t_917c5a07061917 1196-1200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a69b11fd96064298209c16a9ae97e6f8da66cdcf",
+  "prompts": {},
+  "sessions": {
+    "s_ba48e450c6b9e4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "85e9f38d-9743-498b-a7d0-f280f6bff994",
+        "model": "claude-opus-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
