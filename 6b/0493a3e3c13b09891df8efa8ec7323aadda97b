@@ -1,0 +1,14 @@
+tests/test_networkmanager.py
+  h_07d49deca46b44 206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6b0493a3e3c13b09891df8efa8ec7323aadda97b",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
