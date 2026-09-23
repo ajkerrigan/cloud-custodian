@@ -1,0 +1,21 @@
+tools/c7n_gcp/tests/recorder.py
+  s_e5da0a990ef355::t_6e4f520efbcb6f 12-13,23-35,122
+tools/c7n_gcp/tests/conftest.py
+  s_e5da0a990ef355::t_6e4f520efbcb6f 12,60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8dfe9486d769bc1bf213f23268df468f27f31dda",
+  "prompts": {},
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
