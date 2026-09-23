@@ -1,0 +1,32 @@
+tools/c7n_gcp/tests/test_dns.py
+  h_07d49deca46b44 367
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/get-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones-c7n-remove-labels-absent-97b9_1.json
+  h_07d49deca46b44 1-39
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/get-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones-c7n-remove-labels-full-97b9_1.json
+  h_07d49deca46b44 1-36
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/get-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones-c7n-remove-labels-partial-97b9_1.json
+  h_07d49deca46b44 1-39
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/get-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones_1.json
+  h_07d49deca46b44 1-88
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/patch-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones-c7n-remove-labels-absent-97b9_1.json
+  h_07d49deca46b44 1-68
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/patch-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones-c7n-remove-labels-full-97b9_1.json
+  h_07d49deca46b44 1-66
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/patch-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones-c7n-remove-labels-partial-97b9_1.json
+  h_07d49deca46b44 1-67
+tools/c7n_gcp/tests/data/flights/dns-managed-zone-remove-labels/patch-dns.googleapis.com-dns-v1beta2-projects-cloud-custodian-managedZones-c7n-remove-labels-partial-97b9_2.json
+  h_07d49deca46b44 1-65
+tools/c7n_gcp/tests/terraform/dns_managed_zone_remove_labels/tf_resources.json
+  h_07d49deca46b44 1-140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d269d0a747e6d3806b05c6dc26379404b47055a7",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
