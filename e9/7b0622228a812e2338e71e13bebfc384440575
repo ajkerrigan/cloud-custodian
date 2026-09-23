@@ -1,0 +1,64 @@
+tools/c7n_gcp/tests/test_bigquery.py
+  h_07d49deca46b44 371
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_absent_a979_1.json
+  h_07d49deca46b44 1-55
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_absent_a979_2.json
+  h_07d49deca46b44 1-55
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_full_a979_1.json
+  h_07d49deca46b44 1-54
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_full_a979_2.json
+  h_07d49deca46b44 1-51
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_partial_a979_1.json
+  h_07d49deca46b44 1-57
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_partial_a979_2.json
+  h_07d49deca46b44 1-55
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets_1.json
+  h_07d49deca46b44 1-54
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets_2.json
+  h_07d49deca46b44 1-37
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_absent_a979_1.json
+  h_07d49deca46b44 1-54
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_full_a979_1.json
+  h_07d49deca46b44 1-50
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_partial_a979_1.json
+  h_07d49deca46b44 1-54
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-absent_1.json
+  h_07d49deca46b44 3,6,16,20-22,25,43-44
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-absent_2.json
+  h_07d49deca46b44 3,6,16,20-22,25,43-44
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-full_1.json
+  h_07d49deca46b44 3,6,16,20-22,25,44-45
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-full_2.json
+  h_07d49deca46b44 3,6,16,20-22,25,40-41
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-partial_1.json
+  h_07d49deca46b44 3,6,16,20-22,25,45-46
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-partial_2.json
+  h_07d49deca46b44 3,6,16,20-22,25,43-44
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables_1.json
+  h_07d49deca46b44 3,6,16,20,24,27,34,38,41,49,53,56,65
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae_1.json
+  h_07d49deca46b44 3,6,16,20-22,24,48-49
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets_1.json
+  h_07d49deca46b44 3,6,20,24,26
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-absent_1.json
+  h_07d49deca46b44 3,6,19-21,24,42-43
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-full_1.json
+  h_07d49deca46b44 3,6,19-21,24,39-40
+tools/c7n_gcp/tests/data/flights/bq-table-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_tables_45ae-tables-partial_1.json
+  h_07d49deca46b44 3,6,19-21,24,42-43
+tools/c7n_gcp/tests/terraform/bq_dataset_remove_labels/tf_resources.json
+  h_07d49deca46b44 1-284
+tools/c7n_gcp/tests/terraform/bq_table_remove_labels/tf_resources.json
+  h_07d49deca46b44 57-58,69,73,78,83,95-96,104,110,116,129,144-145,154,160,167,180,196-197,207,213,221,234,251-252,254-256
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e97b0622228a812e2338e71e13bebfc384440575",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
