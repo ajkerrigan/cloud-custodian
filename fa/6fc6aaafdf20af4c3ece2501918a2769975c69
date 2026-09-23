@@ -1,0 +1,30 @@
+tools/c7n_gcp/tests/test_gcp_storage.py
+  h_07d49deca46b44 340
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-absent-9308_1.json
+  h_07d49deca46b44 1-21,23-51
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-full-9308_1.json
+  h_07d49deca46b44 1-21,23-48
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-partial-9308_1.json
+  h_07d49deca46b44 1-21,23-51
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b_1.json
+  h_07d49deca46b44 1-18,19-23,25-57,59-92,94-122,123-126
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-absent-9308_1.json
+  h_07d49deca46b44 1-21,23-51
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-full-9308_1.json
+  h_07d49deca46b44 1-21,23-48
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-partial-9308_1.json
+  h_07d49deca46b44 1-21,23-51
+tools/c7n_gcp/tests/terraform/bucket_remove_labels/tf_resources.json
+  h_07d49deca46b44 1-32,34-85,87-141,143-182
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fa6fc6aaafdf20af4c3ece2501918a2769975c69",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
