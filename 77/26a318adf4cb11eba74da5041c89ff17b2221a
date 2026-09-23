@@ -1,0 +1,54 @@
+tools/c7n_gcp/c7n_gcp/query.py
+  s_e5da0a990ef355::t_0ceb3d4084285c 408-411
+tools/c7n_gcp/c7n_gcp/resources/dns.py
+  s_e5da0a990ef355::t_0ceb3d4084285c 25
+tools/c7n_gcp/tests/terraform/sql_instance_remove_labels/main.tf
+  s_e5da0a990ef355::t_a36727deceff47 6-61
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+tools/c7n_gcp/tests/test_bigquery.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 364-429
+tools/c7n_gcp/c7n_gcp/resources/sql.py
+  s_e5da0a990ef355::t_0ceb3d4084285c 28
+tools/c7n_gcp/tests/test_dns.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 359-387
+tools/c7n_gcp/tests/test_sql.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 500-532
+tools/c7n_gcp/c7n_gcp/resources/bigquery.py
+  s_e5da0a990ef355::t_0ceb3d4084285c 36,138
+tools/c7n_gcp/tests/terraform/bq_dataset_remove_labels/main.tf
+  s_e5da0a990ef355::t_a36727deceff47 6-48
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+tools/c7n_gcp/tests/terraform/bucket_remove_labels/main.tf
+  s_e5da0a990ef355::t_a36727deceff47 6-49
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+tools/c7n_gcp/c7n_gcp/resources/storage.py
+  s_e5da0a990ef355::t_0ceb3d4084285c 29
+tools/c7n_gcp/tests/test_gcp_storage.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 333-361
+tools/c7n_gcp/c7n_gcp/actions/labels.py
+  s_e5da0a990ef355::t_0ceb3d4084285c 64-65
+tools/c7n_gcp/tests/terraform/dns_managed_zone_remove_labels/main.tf
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+  s_e5da0a990ef355::t_a36727deceff47 6-43
+tools/c7n_gcp/tests/test_gcp_labels.py
+  s_e5da0a990ef355::t_80545139e6a2d2 183-294
+tools/c7n_gcp/tests/terraform/bq_table_remove_labels/main.tf
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+  s_e5da0a990ef355::t_a36727deceff47 6-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7726a318adf4cb11eba74da5041c89ff17b2221a",
+  "prompts": {},
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
