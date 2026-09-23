@@ -1,0 +1,30 @@
+tools/c7n_gcp/tests/test_sql.py
+  h_07d49deca46b44 508
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-absent-fdc7_1.json
+  h_07d49deca46b44 1-215
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-full-fdc7_1.json
+  h_07d49deca46b44 1-212
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-partial-fdc7_1.json
+  h_07d49deca46b44 1-215
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances_1.json
+  h_07d49deca46b44 1-567
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-absent-fdc7_1.json
+  h_07d49deca46b44 1-28
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-full-fdc7_1.json
+  h_07d49deca46b44 1-28
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-partial-fdc7_1.json
+  h_07d49deca46b44 1-28
+tools/c7n_gcp/tests/terraform/sql_instance_remove_labels/tf_resources.json
+  h_07d49deca46b44 1-494
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cb7da4ee11b24fe0cb1121358abea584d545f7d6",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
