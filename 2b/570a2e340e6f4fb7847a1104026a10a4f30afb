@@ -1,0 +1,19 @@
+tools/c7n_gcp/tests/test_sql.py
+  s_e5da0a990ef355::t_23f8a6f47ac8f1 518,523-536
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2b570a2e340e6f4fb7847a1104026a10a4f30afb",
+  "prompts": {},
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
