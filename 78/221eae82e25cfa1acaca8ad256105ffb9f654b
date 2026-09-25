@@ -1,0 +1,27 @@
+tools/c7n_gcp/tests/test_gcp_labels.py
+  s_bc7c77006edbac::t_e63e26b1e9c93e 519
+  s_bc7c77006edbac::t_dacad5fad1effd 488-518,520
+tools/c7n_gcp/c7n_gcp/actions/labels.py
+  s_bc7c77006edbac::t_4d97d94f587460 34-36,86-88,90-98
+tools/c7n_gcp/c7n_gcp/resources/dns.py
+  s_bc7c77006edbac::t_4d97d94f587460 62-68
+  s_bc7c77006edbac::t_e63e26b1e9c93e 30-32
+tools/c7n_gcp/c7n_gcp/query.py
+  s_bc7c77006edbac::t_4d97d94f587460 417-419
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "78221eae82e25cfa1acaca8ad256105ffb9f654b",
+  "prompts": {},
+  "sessions": {
+    "s_bc7c77006edbac": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f5078672-2fd2-47bf-a808-97cacde637bb",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
