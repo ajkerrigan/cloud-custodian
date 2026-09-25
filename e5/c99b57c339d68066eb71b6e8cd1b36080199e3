@@ -1,0 +1,44 @@
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_absent_1301_1.json
+  s_f635d0154e4f1f::t_f8b47a303f4d7b 3,6,16,20-22,24,49-50
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_absent_1301_2.json
+  s_f635d0154e4f1f::t_b1c4bfa9efd0f7 3,6,16,20-22,24,49-50
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_full_1301_1.json
+  s_f635d0154e4f1f::t_cbca1776ebe50f 3,6,16,20-22,24,48-49
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_full_1301_2.json
+  s_f635d0154e4f1f::t_1f139fc69df9b5 3,6,16,20-22,24,45-46
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_partial_1301_1.json
+  s_f635d0154e4f1f::t_4024895eebd3eb 3,6,16,20-22,24,51-52
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_partial_1301_2.json
+  s_f635d0154e4f1f::t_e433c2786636d7 3,6,16,20-22,24,49-50
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets_1.json
+  s_f635d0154e4f1f::t_d97b4453437336 3,6,20,24,26,38,40
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/get-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets_2.json
+  s_f635d0154e4f1f::t_94a89893d89aba 3,6,20,24,26
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_full_1301_1.json
+  s_f635d0154e4f1f::t_d8ffd1036066e3 3,6,19-21,23,44-45
+tools/c7n_gcp/tests/data/flights/bq-dataset-remove-labels/patch-bigquery.googleapis.com-bigquery-v2-projects-cloud-custodian-datasets-c7n_remove_labels_partial_1301_1.json
+  s_f635d0154e4f1f::t_586d445458b7a8 3,6,19-21,23,48-49
+tools/c7n_gcp/tests/terraform/bq_dataset_remove_labels/tf_resources.json
+  s_f635d0154e4f1f::t_8c197467301f48 57-58,70,74,80,85,144-145,156,160,165,170,228-229,243,247,255,260,273-274,276-278
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e5c99b57c339d68066eb71b6e8cd1b36080199e3",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  },
+  "sessions": {
+    "s_f635d0154e4f1f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f265dca9-829e-45dc-ab09-795c706d834c",
+        "model": "unknown"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
