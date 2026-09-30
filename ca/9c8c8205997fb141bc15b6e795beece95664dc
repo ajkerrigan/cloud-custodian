@@ -1,0 +1,21 @@
+tools/c7n_azure/pyproject.toml
+  s_794d14b1322e00::t_afd94cfc3e2b88 45
+uv.lock
+  ai_agent 822,829,831,1476,1483,1485,1490,1497,1499,1761
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ca9c8c8205997fb141bc15b6e795beece95664dc",
+  "prompts": {},
+  "sessions": {
+    "s_794d14b1322e00": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ac8e2dc8-fb39-4902-ad7c-09b848c66f24",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
