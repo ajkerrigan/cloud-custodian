@@ -1,0 +1,38 @@
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-absent-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 24,58,93
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-absent-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-full-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-partial-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-full-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/terraform/bucket_remove_labels/tf_resources.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 33,86,142
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-partial-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fe496929cb5a862890f6b0df90277f9954e05ce1",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  },
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}

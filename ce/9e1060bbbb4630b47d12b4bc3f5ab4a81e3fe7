@@ -1,0 +1,27 @@
+tools/c7n_gcp/tests/test_gcp_storage.py
+  s_e5da0a990ef355::t_df90e28b8e4284 7
+  s_e5da0a990ef355::t_d8d1e3f4c9a4fa 200-210
+tools/c7n_gcp/c7n_gcp/resources/storage.py
+  s_e5da0a990ef355::t_d8d1e3f4c9a4fa 3,63-72,76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ce9e1060bbbb4630b47d12b4bc3f5ab4a81e3fe7",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  },
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}

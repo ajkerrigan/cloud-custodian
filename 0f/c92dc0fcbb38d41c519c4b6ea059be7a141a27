@@ -1,0 +1,52 @@
+tools/c7n_gcp/c7n_gcp/actions/labels.py
+  s_e5da0a990ef355::t_20b1aa766b5593 86-87,95-121
+  s_e5da0a990ef355::t_b013ad89575680 122
+tools/c7n_gcp/c7n_gcp/query.py
+  s_e5da0a990ef355::t_20b1aa766b5593 412-415
+tools/c7n_gcp/c7n_gcp/resources/dns.py
+  s_e5da0a990ef355::t_20b1aa766b5593 26-27
+tools/c7n_gcp/tests/test_gcp_labels.py
+  s_e5da0a990ef355::t_b6f28addfa1490 3-4,6-7,214,306-342,354-382
+  s_e5da0a990ef355::t_0d2d7e95fdba07 383-384
+  s_e5da0a990ef355::t_a0fffd6d32ebda 343-353
+tools/c7n_gcp/tests/recorder.py
+  s_e5da0a990ef355::t_5f6a2b61a788b9 8,30,75-76,150-152,155-156
+  s_e5da0a990ef355::t_a5bf51e5cf03cd 157
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-absent-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 24,58,93
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-absent-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-full-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/get-storage.googleapis.com-storage-v1-b-c7n-remove-labels-partial-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-full-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+tools/c7n_gcp/tests/terraform/bucket_remove_labels/tf_resources.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 33,86,142
+tools/c7n_gcp/tests/data/flights/bucket-remove-labels/patch-storage.googleapis.com-storage-v1-b-c7n-remove-labels-partial-9308_1.json
+  s_e5da0a990ef355::t_4cdb14e4efd3aa 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0fc92dc0fcbb38d41c519c4b6ea059be7a141a27",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  },
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}

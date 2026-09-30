@@ -1,0 +1,34 @@
+tools/c7n_gcp/c7n_gcp/actions/labels.py
+  s_e5da0a990ef355::t_1cb929853a5132 64,66-67
+tools/c7n_gcp/tests/test_gcp_labels.py
+  s_e5da0a990ef355::t_bcb00e978ffabf 295-303,306-308,390-397,412-415,418,423-430
+tools/c7n_gcp/c7n_gcp/resources/sql.py
+  s_e5da0a990ef355::t_1cb929853a5132 29
+tools/c7n_gcp/c7n_gcp/query.py
+  s_e5da0a990ef355::t_1cb929853a5132 408-412
+tools/c7n_gcp/c7n_gcp/resources/bigquery.py
+  s_e5da0a990ef355::t_1cb929853a5132 37,139
+tools/c7n_gcp/c7n_gcp/resources/storage.py
+  s_e5da0a990ef355::t_1cb929853a5132 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "de1217b1729ddbb2ee9caee6bd569f837ba71e7c",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  },
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}

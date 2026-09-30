@@ -1,0 +1,50 @@
+tools/c7n_gcp/tests/test_sql.py
+  h_07d49deca46b44 508
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-absent-fdc7_1.json
+  h_07d49deca46b44 1-87,89-215
+  s_e5da0a990ef355::t_9c3b70176ba435 88
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-full-fdc7_1.json
+  h_07d49deca46b44 1-84,86-212
+  s_e5da0a990ef355::t_9c3b70176ba435 85
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-partial-fdc7_1.json
+  h_07d49deca46b44 1-87,89-215
+  s_e5da0a990ef355::t_9c3b70176ba435 88
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances_1.json
+  h_07d49deca46b44 1-89,91-180,182-271,273-359,361-452,454-544,546-567
+  s_e5da0a990ef355::t_9c3b70176ba435 90,181,272,360,453,545
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-absent-fdc7_1.json
+  h_07d49deca46b44 1-19,21-28
+  s_e5da0a990ef355::t_9c3b70176ba435 20
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-full-fdc7_1.json
+  h_07d49deca46b44 1-19,21-28
+  s_e5da0a990ef355::t_9c3b70176ba435 20
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-partial-fdc7_1.json
+  h_07d49deca46b44 1-19,21-28
+  s_e5da0a990ef355::t_9c3b70176ba435 20
+tools/c7n_gcp/tests/terraform/sql_instance_remove_labels/tf_resources.json
+  h_07d49deca46b44 1-62,64-219,221-377,379-494
+  s_e5da0a990ef355::t_9c3b70176ba435 63,220,378
+tools/c7n_gcp/tests/recorder.py
+  s_e5da0a990ef355::t_28428ffb7d73bd 23-37,46-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e8f0a8cf89ced09ee0fcf0e09864ee65063f265c",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  },
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}

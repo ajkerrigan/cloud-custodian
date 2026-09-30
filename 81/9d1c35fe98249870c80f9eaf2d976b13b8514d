@@ -1,0 +1,28 @@
+c7n/resources/ami.py
+  s_a6246a28611630::t_31ac1e5e5bac4a 625-628,655-659,663
+tests/test_ami.py
+  s_a6246a28611630::t_7d3c1c117701f5 636-664
+  s_a6246a28611630::t_eefa681899a92e 792-796,798-799,812,818-819,821-823
+  s_a6246a28611630::t_71f699fb5893bc 6-7,786-791,797,800,802-811,813-817,820
+  s_a6246a28611630::t_49f3b6c84a3af3 801
+tests/terraform/ami_image_ancestry/main.tf
+  s_a6246a28611630::t_a07479c7a26287 1-47
+tests/data/placebo/ami_image_ancestry/ec2.DescribeImages_2.json
+  s_a6246a28611630::t_b95adaf1f1cf4d 40-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "819d1c35fe98249870c80f9eaf2d976b13b8514d",
+  "prompts": {},
+  "sessions": {
+    "s_a6246a28611630": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c63344c6-0ec5-43c4-9de8-91483fcc09c3",
+        "model": "claude-opus-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}

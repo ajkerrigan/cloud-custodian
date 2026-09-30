@@ -1,0 +1,57 @@
+tools/c7n_gcp/c7n_gcp/query.py
+  s_e5da0a990ef355::t_1b2df70fb3d6d9 408-412
+tools/c7n_gcp/tests/test_gcp_labels.py
+  s_e5da0a990ef355::t_1b2df70fb3d6d9 234
+  s_e5da0a990ef355::t_80545139e6a2d2 185-233,235-296
+  s_e5da0a990ef355::t_31a6d986c8c872 6-7,297-335
+tools/c7n_gcp/tests/test_gcp_storage.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 333-361
+tools/c7n_gcp/tests/terraform/dns_managed_zone_remove_labels/main.tf
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+  s_e5da0a990ef355::t_a36727deceff47 6-43
+tools/c7n_gcp/c7n_gcp/actions/labels.py
+  s_e5da0a990ef355::t_1b2df70fb3d6d9 64
+  s_e5da0a990ef355::t_0ceb3d4084285c 65
+tools/c7n_gcp/c7n_gcp/resources/bigquery.py
+  s_e5da0a990ef355::t_1b2df70fb3d6d9 36,138
+tools/c7n_gcp/c7n_gcp/resources/storage.py
+  s_e5da0a990ef355::t_1b2df70fb3d6d9 29
+tools/c7n_gcp/tests/terraform/bucket_remove_labels/main.tf
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+  s_e5da0a990ef355::t_a36727deceff47 6-49
+tools/c7n_gcp/tests/test_sql.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 500-532
+tools/c7n_gcp/tests/test_dns.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 359-387
+tools/c7n_gcp/tests/test_bigquery.py
+  s_e5da0a990ef355::t_9f1d103f56b36f 364-429
+tools/c7n_gcp/tests/terraform/bq_dataset_remove_labels/main.tf
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+  s_e5da0a990ef355::t_a36727deceff47 6-48
+tools/c7n_gcp/c7n_gcp/resources/dns.py
+  s_e5da0a990ef355::t_1b2df70fb3d6d9 25
+tools/c7n_gcp/tests/terraform/sql_instance_remove_labels/main.tf
+  s_e5da0a990ef355::t_a36727deceff47 6-61
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+tools/c7n_gcp/c7n_gcp/resources/sql.py
+  s_e5da0a990ef355::t_1b2df70fb3d6d9 28
+tools/c7n_gcp/tests/terraform/bq_table_remove_labels/main.tf
+  s_e5da0a990ef355::t_a36727deceff47 6-70
+  s_e5da0a990ef355::t_e05b0c8f9d62a9 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f3b7de621eb228d5215e04ff9c35a381b568ed26",
+  "prompts": {},
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": null
+    }
+  }
+}

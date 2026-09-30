@@ -1,0 +1,43 @@
+tools/c7n_gcp/tests/test_sql.py
+  h_07d49deca46b44 508
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances_1.json
+  s_e5da0a990ef355::t_9c3b70176ba435 92,184,275
+  h_07d49deca46b44 1-27,30-91,93-183,185-274,276-297
+  h_07d49deca46b44 28-29
+tools/c7n_gcp/tests/terraform/sql_instance_remove_labels/tf_resources.json
+  s_e5da0a990ef355::t_9c3b70176ba435 63,220,378
+  h_07d49deca46b44 1-62,64-219,221-377,379-494
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-absent-57b9_1.json
+  h_07d49deca46b44 1-215
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-full-57b9_1.json
+  h_07d49deca46b44 1-212
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/get-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-partial-57b9_1.json
+  h_07d49deca46b44 1-215
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-absent-57b9_1.json
+  h_07d49deca46b44 1-28
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-full-57b9_1.json
+  h_07d49deca46b44 1-28
+tools/c7n_gcp/tests/data/flights/sql-instance-remove-labels/patch-sqladmin.googleapis.com-sql-v1beta4-projects-cloud-custodian-instances-c7n-remove-labels-partial-57b9_1.json
+  h_07d49deca46b44 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "42dac911c4bad2b0eb1f16147826c1ec028045ab",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  },
+  "sessions": {
+    "s_e5da0a990ef355": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8ec1b75-5c7b-46b4-a790-52c96015a72f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
