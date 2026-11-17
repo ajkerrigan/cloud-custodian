@@ -1,0 +1,29 @@
+tools/c7n_azure/c7n_azure/resources/storage.py
+  s_4e093fcb6c18ab::t_41af5f130a7373 14-15,702-707
+  s_4e093fcb6c18ab::t_e5c59b0e29bb1c 708
+tests/test_data.py
+  s_4e093fcb6c18ab::t_5240ed2443fb47 74,80-83
+conftest.py
+  s_4e093fcb6c18ab::t_df6facd0f699d0 1-15
+tools/c7n_kube/tests/data/flights/TestDeleteAction.test_delete_namespaced_resource.yaml
+  s_4e093fcb6c18ab::t_1d75dc75a42b16 8,13,17-20,24-30,40,45,49-52,54,58-62,72,77,81-84,88-94
+tests/test_revisions.py
+  s_4e093fcb6c18ab::t_e8ef7bf4d9ec62 81
+  s_4e093fcb6c18ab::t_f9f36ac21549c2 3-7,74-78,80,82-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "959e4cd4932d50bc3cfb328c239e152f5cb0c90c",
+  "prompts": {},
+  "sessions": {
+    "s_4e093fcb6c18ab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "afa2e827-9431-42ad-b904-622992e6bbca",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
